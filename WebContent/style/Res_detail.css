@@ -1,0 +1,100 @@
+#detail{
+ background-color: rgba(255,255,255,0.6);
+ color: black;
+ width: 60%;
+ margin-left:20%;
+ margin-right:20%;
+ height: auto;
+ padding:25px;
+ position: absolute;
+ top: 180px;
+}
+#detail-foto{
+ position absolute;   
+ width: 350px;
+   height: 300px;
+   float: left;
+}
+#detail-foto img{
+   width: 350px;
+   height: 300px;
+}
+#detail-general-info{
+	 display:inline-block;
+  	 margin-left: 30px;
+  	 font-weight: bold;
+}
+#detail-description{
+	display:table;
+	width: auto;
+}
+#detail-description h4{
+   font-weight: bold;
+   margin-left: 30px;
+}
+#detail-description p{
+	margin-left: 30px;
+}
+#detail #button{
+   		background-color: #cd1d21;
+        border: none;
+        width: auto;
+        height: 40px;
+        color: white;
+        outline: none;
+        padding:10px;
+        text-transform: uppercase;
+        font-size: 14px;
+        cursor: pointer;
+       margin-left: 30px;
+    }
+
+@media screen and (max-width: 1100px) {
+      #detail{
+         top:120px;
+         height:100%;
+      }
+      #detail-foto{
+         background-color: blue;
+         float:none;
+         position: relative;
+         left:50%;
+         margin-left: -175px;
+      }
+      
+      #detail-general-info{
+         margin-left: 0px;
+}
+#detail-description h4{
+   margin-left: 0px;
+}
+#detail-description p{
+	margin-left: 0px;
+}
+#detail #button{
+	margin-left: 0;
+}
+    
+   }
+   @media screen and (max-width: 710px) {
+      #detail{
+         
+         width:100%;
+         margin:0;
+      }
+    #detail-description{
+   margin-bottom: 50px;
+}
+    
+   }
+    @media screen and (max-width: 359px) {
+     #detail-foto{   
+      width: 250px;
+      height: 200px;
+      margin-left:-125px;
+}
+#detail-foto img{
+   width: 250px;
+   height: 200px;
+}
+   }

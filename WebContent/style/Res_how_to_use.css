@@ -1,0 +1,66 @@
+#how-to-use{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 110px;
+    margin: 0;
+    padding: 0;
+    border: 3px solid black;
+    background-image: url("http://localhost:8080/DriverShowcase/images/route66.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.effect{
+overflow:hidden;
+    background-color: rgba(255,255,255,0.6);
+    width: 19%;
+    height: 400px;
+    display: inline-block;
+    margin: 3%;
+    padding: 5px;
+    padding-top: 7%;
+    border: 0;
+    border-radius: 25px;
+    text-align: center;
+}
+.effect h3{
+    font-size: 25px;
+    
+}
+.effect p{
+   
+    font-size: 15px;
+}
+
+.parallax{
+    position: relative;
+    top: 110px;
+    width: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#first-par{
+    background-image: url("http://localhost:8080/DriverShowcase/images/parallax1.jpg");
+    height:500px;
+}
+#second-par{
+    background-image: url("http://localhost:8080/DriverShowcase/images/parallax2.jpg");
+    height: 600px;
+}
+@media screen and (max-width: 1110px) {
+      .effect{
+         width: 44%;
+         padding-top:5%;
+         height:200px
+      }
+   }
+   @media screen and (max-width: 500px) {
+      .effect{
+         width: 94%;
+         padding-top:3%;
+      }
+   }

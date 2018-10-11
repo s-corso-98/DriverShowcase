@@ -1,0 +1,173 @@
+#catalogo{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top:120px;
+    font-family: 'Dosis', sans-serif;
+    background-color: rgba(0,0,0,0.1);
+}
+#filter{
+    background-color: #a8000e;
+    background: linear-gradient(0deg,rgba(181,0,1,0.6),rgba(252,38,0,0.6));
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    text-align: center;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+}
+.filter_box{
+    margin-top: 30px;
+    height:auto;
+    width: 19.8%;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.filter_box select{
+    font-size: 15px;
+    width: 180px;
+    height: 30px;
+    position: relative;
+    top: -7px;
+    display: block;
+    position: relative;
+    left: 50%;
+    margin-left: -90px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+#filter button{
+    margin-top: 15px;
+    background-color: #0081ff;
+    border: none;
+    width: 300px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+#filter button:hover{
+    background-color: #00b4ff;
+}
+#filter button:active{
+    background-color: #0060c0;
+}
+
+.annuncio{
+    font-family: 'Dosis', sans-serif;
+    display: inline-block;
+    overflow: hidden;
+    width: 31.333%;
+    height: 510px;
+    background-color: #a8000e;
+    background: linear-gradient(0deg,#b50001,#fc2600);
+    margin: 1%;
+    border-radius: 30px;
+    font-size: 20px;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+    font-weight: bold;
+}
+.annuncio img{
+    width: 94%;
+    height: 400px;
+    border-radius: 30px;
+    position: relative;
+    left:3%;
+    border:3px ridge black;
+    margin-top:20px;
+    margin-bottom: 5px;
+}
+.annuncio p{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.annuncio #button{
+    color:  white;
+    background-color: #353535;
+    border: none;
+    width: 100px;
+    height: 40px;
+	text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 15px;
+    position: relative;
+    top: -50px;
+    left: 75%;
+    
+}
+
+
+@media screen and (max-width: 1400px) {
+   .annuncio{
+       height: 400px;
+   }
+   .annuncio img {
+   height: 250px;
+   }
+   .annuncio #button{
+   left: 65%;
+   }
+}
+@media screen and (max-width: 1120px) {
+    .filter_box{
+        font-size: 25px;
+    }
+    .filter_box select{
+        width: 130px;
+        margin-left: -65px;
+    }
+    .annuncio{
+       width: 46%;
+       margin: 2%;
+   }
+
+}
+
+
+@media screen and (max-width: 780px) {
+    .filter_box{
+        font-size: 20px;
+        width: 24.8%;
+    }
+    .filter_box select{
+        width: 100px;
+        margin-left: -50px;
+    }
+     .annuncio #button{
+       left: 50%;
+       margin-left:-40px;
+       top:-5px;
+   }
+}
+@media screen and (max-width: 500px) {
+    .filter_box{
+        font-size: 18px;
+        width: 24.8%;
+        margin: 20px;
+    }
+    .filter_box select{
+        width: 100px;
+        margin-left: -50px;
+
+    }
+  
+    #filter button{
+        width: 150px;
+    }
+    .annuncio{
+       width: 96%;
+       margin: 2%;
+   }
+}
