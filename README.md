@@ -16,23 +16,23 @@ DATABASE IS NOT CRYPTED YET!
 Not logged user:
 -Check the marketplace
 -Add something to the cart
--Proceed to the payment(*)
+-Proceed to the payment(^)
 
 Logged user/company:
 -Check the marketplace
 -Add something to the cart
--Proceed to the payment(*)
+-Proceed to the payment(^)
 -Add his products to the marketplace
--Delete one or more of his products (*)
+-Delete one or more of his products (^)
 -Check all of his products
--Receive news via email(*)
+-Receive news via email(^)
 
 Admin:
 -Check the marketplace
 -Add something to the cart
--Proceed to the payment(*)
+-Proceed to the payment(^)
 -Add his products to the marketplace
--Delete one or more of his products (*)
+-Delete one or more of his products (^)
 -Check all of his products
 -Ban users
 
@@ -41,7 +41,7 @@ Filter system actually works only in 2 ways:
 2)Starting from "marca"(brand) the filter starts to fill,checking the existing products with the selected parameters, the options 
 till "anno"(year).
 
-*will be implemented as soon as possible!
+^will be implemented as soon as possible!
 
 All rights reserved to :
 Silvio Corso     linkedin: https://www.linkedin.com/in/silvio-corso-730898172/
