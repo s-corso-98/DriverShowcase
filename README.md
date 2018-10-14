@@ -2,7 +2,7 @@
 Vehicles and other stuffs e-commerce.
 
 ---HOW TO----
-To test the website u have to:
+To test the website you have to:
 1) Connect to MySQL server in localhost using user:"root" pwd:"0000"
 2) Create a database named "dbdrivershowcase"
 3) Double click on the name of the database
