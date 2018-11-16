@@ -5,19 +5,18 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Base64;
 import java.util.List;
-
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-
 import it.unisa.dsc.model.AccessoriDAO;
 import it.unisa.dsc.model.AccessoriDTO;
 import it.unisa.dsc.model.AutoDAO;
 import it.unisa.dsc.model.AutoDTO;
 import it.unisa.dsc.model.MotoDAO;
 import it.unisa.dsc.model.MotoDTO;
+
 
 @WebServlet("/ShowAnnunci")
 public class ShowAnnunci extends HttpServlet {
